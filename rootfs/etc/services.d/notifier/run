@@ -1,0 +1,7 @@
+#!/usr/bin/with-contenv bash
+
+while :
+do
+	/usr/bin/curl --connect-timeout 10 -H "Content-Type: application/json" $NOTIFY_URL
+	sleep $NOTIFY_EVERY_SECONDS
+done
