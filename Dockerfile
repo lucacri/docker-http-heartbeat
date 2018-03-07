@@ -1,5 +1,5 @@
 FROM lucacri/alpine-base:latest
-MAINTAINER "Luca Critelli" <lucacri@gmail.com>
+LABEL maintainer="lucacri@gmail.com"
 
 
 RUN apk --no-cache add \
